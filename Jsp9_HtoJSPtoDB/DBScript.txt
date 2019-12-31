@@ -1,0 +1,12 @@
+
+SQL> create table student3(sno number(10),sname varchar(20),sadds varchar(20),avg number(8,2));
+
+Table created.
+
+SQL> create sequence sno_jsp start with 1001 increment by 1;
+
+Sequence created.
+
+SQL> commit;
+
+Commit complete.

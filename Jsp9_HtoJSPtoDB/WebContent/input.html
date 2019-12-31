@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration and Information Management Application</title>
+<style>
+h2{
+background-color:white;
+}
+</style>
+<body style="background-image:url('images/1.jpg');">
+<h2 style="color:red;align:center"><marquee>Student Registration and Information Management Application</marquee></h2>
+<form action="studManagementUrl" method="post">
+<table border="1" >
+<tr>
+<td style=color:red><h1>Student_Name::&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="sname" value="enter name" style="border-color: red"></h1></td>
+</tr>
+<tr>
+<td style=color:red><h1>Student_Address::<input type="text" name="sadd" value="enter address" style="border-color: red"></h1></td>
+</tr>
+<tr>
+<td style=color:red><h1>Student_Average::<input type="text" name="savg" value="enter everage" style="border-color: red"></h1></td>
+</tr>
+<tr>
+<td><input type="submit" value="Register" name="s1"></td>
+</tr>
+<tr>
+<td><h2><a href=studManagementUrl?s1=link>GetAllStudentDetails</a></h2></td>
+</tr>
+<tr>
+<td><h1><input type="reset" value="cancel"></h1></td>
+</tr>
+</table>
+</form>
+</body>
+
+</html>
