@@ -25,7 +25,7 @@ int count;
 	           //Register JDBC Driver
 	           Class.forName(driver);
 	           //Establish the Connection
-	           Connection con=DriverManager.getConnection("url","DBuser","DBpwd");
+	           Connection con=DriverManager.getConnection(url,dbuser,dbpwd);
 	           //Create JDBC PrepareStatement Objects
 	           ps1=con.prepareStatement(query1);
 	           ps2=con.prepareStatement(query2);
@@ -52,10 +52,10 @@ String s1=request.getParameter("s1");
 	         int r=ps1.executeUpdate();
 	         //proceess the result
 if(r==0){%>
-	<b>Registration Failed</b>
+	<b><h1>Registration Failed</h1></b>
 	<% }
 	else{%>
-	<b>Registration Success</b>
+	<b><h1>Registration Success</h1></b>
 	<%}
 }
 	           else{
@@ -66,7 +66,7 @@ if(r==0){%>
 	          //get Column Count
 	         count=rsmd.getColumnCount();
 	 %>
-	<table border='1' align="center">
+	<h1><table border='1' align="center">
 	<tr>
 	<%
 	for(int i=1;i<count;i++){%>
@@ -81,9 +81,9 @@ if(r==0){%>
 	</tr>
 	<%} %>
 	
-	</table>
+	</table></h1>
 <% }
 %>
-<br><a href="input.html">Home</a>
+<br><a href="input.html"><h1>Home</h1></a>
 </body>
 </html>
