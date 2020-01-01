@@ -8,5 +8,7 @@
 </head>
 <body>
 <b>Internal Problem</b>
+<%=exception.toString() %>
+<%=exception.getMessage() %>
 </body>
 </html>
