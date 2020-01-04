@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome</title>
+</head>
+<style>
+h1{
+color:white;
+background-color: black;
+text-align:center;
+}
+form{
+color:green;
+background-color:pink;
+text-align:center;
+padding:10px;
+}
+</style>
+<body>
+<h1><marquee>Bill Generator</marquee></h1>
+<form action="billurl" method="post">
+Item Name::&nbsp;&nbsp;&nbsp;<input type="text" name="name" style="color:navy"><br>
+Item Price::&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="price" style="color:lime"><br>
+Item Quality::<input type="text" name="quality" style="color:silver"><br>
+<input type="submit" value="GetFinalBillAmount">
+</form>
+</body>
+</html>
