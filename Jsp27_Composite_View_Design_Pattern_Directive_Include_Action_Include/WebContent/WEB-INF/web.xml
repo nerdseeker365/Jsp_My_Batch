@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Jsp27_Composite_View_Design_Pattern_Directive_Include_Action_Include</display-name>
+  <welcome-file-list>
+    <welcome-file>page1.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>a</servlet-name>
+  <servlet-class>com.nt.test.HeaderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>a</servlet-name>
+  <url-pattern>/headerurl</url-pattern>
+  </servlet-mapping>
+</web-app>
