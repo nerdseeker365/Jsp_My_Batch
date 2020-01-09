@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Jsp35_useBean_param">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Jsp35_useBean_param"/>
+        <property name="java-output-path" value="/Jsp35_useBean_param/build/classes"/>
+    </wb-module>
+</project-modules>
