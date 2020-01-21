@@ -1,0 +1,19 @@
+SQL> create table book_store(bookId number(10) primary key,bookName varchar2(20),auther varchar2(20),price float(20),publisher varchar2(20),category varchar2(20),status varchar2(20));
+
+Table created.
+
+SQL> commit;
+
+Commit complete.
+
+SQL> insert into book_store values(1001,'effective java','sankar',800,'bill gates','java','yes');
+
+1 row created.
+
+SQL> insert into book_store values(1002,'thinking java','raju',900,'ambani','java1','yes');
+
+1 row created.
+
+SQL> commit;
+
+Commit complete.
